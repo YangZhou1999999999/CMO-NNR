@@ -20,7 +20,7 @@ This project implements a **Distributionally Robust Optimization (DRO)** based t
 
 - **`Q_update`**  
   Define the update strategy for the `Q` parameter.  
-  **Options:** `[None, variant, group, gradient]`  
+  **Options:** `[None, distance, variant, group, gradient]`  
   **Default:** `'distance'`
 
 - **`D_k`**  
