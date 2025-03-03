@@ -30,12 +30,12 @@ This project implements a **Distributionally Robust Optimization (DRO)** based t
 
 - **`file_name`**  
   The file name for saving experimental results.  
-  **Example:** `'experiment_class6_noise0.15.csv'`  
-  **Default:** `'experiment_class6_noise0.15.csv'`
+  **Example:** `'experiment_M3_class_num6_noise0.15.csv'`  
+  **Default:** `'experiment_M3_class_num6_noise0.15.csv'`
 
 - **`Distance_loss`**  
   Cross-environment feature distance constraint (denoted as **Γ** in the paper).  
-  Controls the regularization strength on distribution differences.  
+  Controls the filtering range of same-class samples based on feature distance. 
   **Default:** `0.0`
 
 - **`Lambda`**  
